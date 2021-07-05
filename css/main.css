@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
 body {
   background: #FFFBF8;
   margin: 0;
   font-family: 'Hind Siliguri';
 }
 
+h1, h2, h3 {
+  font-family: 'Noto Serif';
+}
+
 .navbar {
   background: transparent;
   padding: 1em;
+  position: absolute;
+  top: 0;
 }
 
 .navbar .logo {
@@ -35,14 +42,50 @@ ul {
   padding: 0;
 }
 
-section {
-  padding: 5em 2em;
-  width: 100%;
-}
-
 .hero {
   text-align: center;
   background-image: url("/images/desktop/image-header.jpg");
   background-size: cover;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2.5em;
+  line-height: 2.5em;
+}
+
+.content-section {
+  text-align: center;
+  background-color: #FFFBF8;
+}
+
+.content-section h1 {
+  color: #1F2B39;
+  font-size: 2.5em;
+}
+
+.content-section p {
+  color: #858489;
+  font-size: 1.5em;
+}
+
+.content-section img {
+  width: 100%;
+}
+
+.gallery-section img {
+  width: 100%;
+}
+
+.learn-more-btn a {
+  color: #1F2B39;
+  font-size: 1.5em;
+  font-family: 'Noto Serif';
+}
+
+.learn-more-btn .line-decoration {
+  background-color: black;
+  width: 5px;
+  height: 2px;
 }
 /*# sourceMappingURL=main.css.map */
