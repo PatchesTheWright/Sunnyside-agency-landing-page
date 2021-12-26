@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
   <div class="navbar">
     <div class="container">
       <a class="logo" href="#">
-        <img src="images/logo.svg"  alt="Logo image">
+        <img src="images/logo.svg" alt="Logo image">
       </a>
-      <img id="mobile-cta" class="mobile-menu" src="images/icon-hamburger.svg"  alt="Logo image">
+
       <nav>
         <ul class="primary-nav">
           <li class="current"><a href="#">About</a></li>
@@ -30,7 +39,9 @@
           <li><a href="#">Projects</a></li>
           <li class="contact-btn"><a href="#">Contact</a></li>
         </ul>
-      </nav>   
+      </nav>
+
+      <img id="mobile-cta" class="mobile-menu" src="images/icon-hamburger.svg" alt="Logo image">
     </div>
   </div>
 
@@ -41,55 +52,58 @@
     </div>
   </section>
 
-  <section class="content-section">
+  <section class="content-section-1">
     <div class="container">
       <div class="img-col-right">
         <img src="images/desktop/image-transform.jpg" alt="Single egg">
-      </div>  
-      <div class="left-col">
+      </div>
+      <div class="left-col info-box">
         <h1>Transform your brand</h1>
         <p>
-          We are a full-service creative agency specializing in helping brands grow fast. 
+          We are a full-service creative agency specializing in helping brands grow fast.
           Engage your clients through compelling visuals that do most of the marketing for you.
         </p>
         <div class="learn-more-btn">
-          <a href="#">Learn more</a>
-          <span class="line-decoration"></span>
+          <a href="#">
+            Learn more
+            <div class="line-decoration"></div> 
+          </a>         
         </div>
-      </div>  
+      </div>
     </div>
   </section>
 
-  <section class="content-section">
+  <section class="content-section-2">
     <div class="container">
       <div class="img-col-left">
         <img src="images/desktop/image-stand-out.jpg" alt="Pink cup">
-      </div>    
-      <div class="right-col">
+      </div>
+      <div class="right-col info-box">
         <h1>Stand out to the right audience</h1>
         <p>
-          Using a collaborative formula of designers, researchers, photographers, videographers, 
-          and copywriters, we’ll build and extend your brand in digital places. 
+          Using a collaborative formula of designers, researchers, photographers, videographers,
+          and copywriters, we’ll build and extend your brand in digital places.
         </p>
         <div class="learn-more-btn">
           <a href="#">Learn more</a>
-          <span class="line-decoration"></span>
+          <div class="line-decoration"></div>
         </div>
-        
+
       </div>
     </div>
   </section>
 
   <section class="features-section">
     <div class="container">
-      <div class="left-col img-background">
-        <h2>Graphic design</h2>
+      <div class="left-col img-background info-box">
+        <h1>Graphic Design</h1>
         <p>
-          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential clients’ attention.
         </p>
       </div>
-      <div class="right-col img-background">
-        <h2>Photography</h2>
+      <div class="right-col img-background info-box">
+        <h1>Photography</h1>
         <p>
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
         </p>
@@ -99,61 +113,58 @@
 
   <section class="testimonials-section">
     <div class="container">
-      <h2>Client testimonials</h2>
+      <div class="info-box">
+        <h2>Client testimonials</h2>
         <ul>
-            <li>
-                <img src="images/image-emily.jpg" alt="Person">
+          <li>
+            <img src="images/image-emily.jpg" alt="Person">
+            <blockquote>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
+              were always hit.</blockquote>
+            <cite>Emily R.</cite>
+            <span class="profission-text">Marketing Director</span>
+          </li>
+          <li>
+            <img src="images/image-thomas.jpg" alt="Person">
 
-                <blockquote>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</blockquote>
-                <cite>Emily R.</cite>
-                <span class="profission-text">Marketing Director</span>
-            </li>
-            <li>
-                <img src="images/image-thomas.jpg" alt="Person">
+            <blockquote>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+              satisfying and enjoyable experience.</blockquote>
+            <cite>Thomas S.</cite>
+            <span class="profission-text">Chief Operating Officer</span>
+          </li>
+          <li>
+            <img src="images/image-jennie.jpg" alt="Person">
 
-                <blockquote>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</blockquote>
-                <cite>Thomas S.</cite>
-                <span class="profission-text">Chief Operating Officer</span>
-            </li>
-            <li>
-                <img src="images/image-jennie.jpg" alt="Person">
-
-                <blockquote>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</blockquote>
-                <cite>Jennie F.</cite>
-                <span class="profission-text">Business Owner</span>
-            </li>
+            <blockquote>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+              recommended!</blockquote>
+            <cite>Jennie F.</cite>
+            <span class="profission-text">Business Owner</span>
+          </li>
         </ul>
+      </div>
     </div>
   </section>
 
   <section class="gallery-section">
     <div class="container">
-      <ul>
-        <li>
-          <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
-        </li>
-        <li>
-          <img src="images/desktop/image-gallery-cone.jpg" alt="Illustration">
-        </li>
-        <li>
-          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Illustration">
-        </li>
-      </ul>
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="cone">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
     </div>
   </section>
 
   <div class="footer">
     <div class="container">
       <img src="images/logo.svg" class="logo-footer" alt="Illustration">
-      <nav>
-        <ul class="primary-nav">
+      <nav class="primary-nav">
+        <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
         </ul>
-      </nav>  
-      <nav>
-        <ul class="contact-nav">
+      </nav>
+      <nav class="social-nav">
+        <ul>
           <li>
             <a href="#"><img src="images/icon-facebook.svg" alt="Illustration"></a>
           </li>
@@ -167,13 +178,24 @@
             <a href="#"><img src="images/icon-pinterest.svg" alt="Illustration"></a>
           </li>
         </ul>
-      </nav> 
+      </nav>
     </div>
   </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script>
+    const mobileBtn = document.getElementById('mobile-cta')
+          nav = document.querySelector('nav')
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.toggle('menu-show');
+    })
+  </script>
+
 </body>
+
 </html>
